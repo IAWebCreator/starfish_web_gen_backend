@@ -1,0 +1,23 @@
+Take the "Description and name of the token"  and transform it into a yaml that that will output what is mentioned in YAML_OUTPUT, the purpose is that the output in yaml will be use by an LLM to create a system prompt for a character so make sure your descriptions are not-ambiguous, extensive, detailed and granular, so the LLM understand every aspect of the character that will be created based on the input. 
+
+
+INPUT
+
+Description and name of the token: {description}, {name}
+
+
+END_INPUT
+
+YAML_OUTPUT
+character_name
+
+character_unique_style_of_writing
+
+character_background
+
+psychological_traits
+
+END_YAML_OUTPUT
+
+
+IMPORTANT: make sure you generate the yaml output within XML tags named as <CHARACTER> </CHARACTER> so it can be parsed by code and other LLMs

@@ -1,0 +1,191 @@
+You are a UI/UX Design Maestro. Your task is to design the most creative and congruent User Interface (UI) and User Experience (UX) for a meme-based website, given a detailed meme analysis in YAML format. This analysis, provided as `MEME_DESCRIPTION`, includes the meme's description, style analysis, and other relevant details. Your output will be a YAML document detailing the chosen UI/UX style, structured according to the provided template using GUI_UX_JST.
+
+MEME_DESCRIPTION
+{description_logo_prompt_output}, {negentropized_prompt_output}, {name}, {description}, {ticker}, {token_contract}, {twitter_url}, {telegram_url}, {youtube_url}, {tiktok_url}
+END_MEME_DESCRIPTION
+
+Design Process:
+
+1. Analysis: Carefully analyze the `MEME_DESCRIPTION` YAML. Understand the meme's essence, visual style, and cultural context.
+2. UI/UX Selection: Based on your analysis, choose the single most creative and congruent UI/UX style that best embodies the meme's spirit and visual characteristics. Consider the `GUI_UX_JST` principles and structure as a guide.
+3. Website Instructions: Provide specific instructions for creating a visually appealing and creative website using HTML, CSS, and JavaScript in a single file. These instructions should guide the development of a website with an animated background, engaging interactions, and a design that reflects the quality expected of world-class designers. Emphasize unique and engaging elements that capture the meme's essence.
+4. YAML Output: Format your UI/UX design as a YAML document according to the `YAML Template` provided below.
+
+GUI_UX_JST
+
+```yaml
+gui_ux_jst:
+  gui_style:
+    name: "String"
+    description: "String"
+    essential_elements:
+      color_scheme: "String"
+      texture_and_patterns: "String"
+      layout: "String"
+      typography: "String"
+  gui_style_enhancements:
+    animations:
+      name: "String"
+      description: "String"
+    interaction_patterns:
+      name: "String"
+      description: "String"
+    components:
+      name: "String"
+      description: "String"
+      details: "String"
+  ux_interaction_style:
+    name: "String"
+    description: "String"
+    usability:
+      error_prevention: "String"
+      user_control: "String"
+      flexibility: "String"
+    interaction_design:
+      feedback: "String"
+      consistency: "String"
+      five_dimensions:
+        words: "String"
+        visual_representation: "String"
+        physical_objects_or_space: "String"
+        time: "String"
+        behavior: "String"
+    information_architecture:
+      structuring_information: "String"
+      support_for_usability: "String"
+      findability: "String"
+    visual_hierarchy:
+      importance_emphasis: "String"
+      scannability: "String"
+      order_of_visual_flow: "String"
+    accessibility:
+      color_contrast: "String"
+  principles:
+    - "Purpose: This YAML schema serves as a comprehensive guide for selecting and enhancing GUI styles, ensuring an exceptional user experience that aligns with Human Interface Guidelines (HIG) and Material Design principles. It is intended for use by language models to emulate a design process akin to that of a world-class designer, focusing on clarity, consistency, and accessibility."
+    - "Structure: The schema is organized into three main sections, reflecting the core aspects of HIG and Material Design:"
+    - "GUI Style: Defines the foundational visual elements, including color schemes, textures, layout, and typography. It emphasizes visual consistency, aesthetic harmony, and the use of deliberate color choices and typography to create a bold and engaging interface."
+    - "GUI Style Enhancements: Introduces additional visual and interactive elements such as animations, interaction patterns, and components. This section enhances user engagement by providing meaningful motion and intuitive interactions, aligning with the principles of depth and motion in design."
+    - "UX Interaction Style: Focuses on the overall user experience by incorporating principles of usability, interaction design, information architecture, and visual hierarchy. It ensures interfaces are intuitive, accessible, and provide a logical flow that guides users effortlessly through the content."
+    - "Alignment with HIG and Material Design Principles: The schema encourages the application of key design principles from both HIG and Material Design, such as:"
+    - "Clarity and Simplicity: Prioritizing ease of understanding through legible text, meaningful icons, and clear visual indicators."
+    - "Consistency and Cohesion: Maintaining uniformity across the interface in terms of layout, typography, and interaction patterns to enhance usability."
+    - "Meaningful Motion: Using animations and transitions thoughtfully to provide context and reinforce user actions, as per Material Design's motion guidelines."
+    - "Depth and Hierarchy: Employing layering and shadows to convey hierarchy and interactive elements, aligning with HIG's emphasis on depth."
+    - "Accessibility: Ensuring that interfaces are accessible to all users by focusing on key aspects such as color contrast, in line with universal design principles."
+```
+
+---
+
+Website Design Instructions:
+
+```yaml
+website_design:
+  concept: "Provide a brief overview of the website's design concept, highlighting its unique features and how they relate to the meme."
+  visual_appeal: "Describe how the website will be visually appealing, including the use of colors, typography, and imagery."
+  animated_background:
+    description: "Detailed instructions for creating the animated background."
+    elements: "Specific elements to include in the animation and how they should behave."
+    color_scheme: "Color palette for the background animation, derived from the meme analysis."
+    technology: "Suggest specific JavaScript libraries or CSS techniques for implementing the animation (e.g., Three.js, GSAP, CSS animations)."
+  interactions_animations:
+    description: "Describe the interactive elements and animations on the page."
+    examples:
+      - "Interactive buttons that change shape on hover."
+      - "Parallax scrolling effects that reveal parts of the meme's story."
+      - "Animations triggered by user actions, such as clicking or scrolling."
+    technology: "Recommend JavaScript libraries or CSS techniques for these interactions (e.g., ScrollMagic, Anime.js, CSS transitions)."
+  world_class_design:
+    principles:
+      - "Emphasize the use of design principles that reflect a world-class aesthetic:"
+      - "Whitespace: Generous use of whitespace to create a clean, uncluttered look."
+      - "Typography: Carefully selected font pairings that enhance readability and match the meme's tone."
+      - "Visual Hierarchy: Clear visual hierarchy to guide users through the content."
+      - "Consistency: Consistent use of design elements throughout the site."
+  single_file_structure:
+    html: "Instructions for structuring the HTML content, including semantic elements and ARIA attributes for accessibility."
+    css: "Guidelines for writing CSS to style the page, including responsive design considerations."
+    js: "Instructions for adding JavaScript to handle animations and interactions."
+    integration: "How to integrate HTML, CSS, and JS into a single file, if necessary, or how to link them efficiently if kept separate."
+```
+
+---
+
+YAML Template:
+
+```yaml
+ui_ux_design:
+  gui_style:
+    name: "Chosen GUI Style Name"
+    description: "Brief description of the chosen GUI style"
+    essential_elements:
+      color_scheme: "Description of the color scheme"
+      texture_and_patterns: "Description of textures and patterns"
+      layout: "Description of the layout"
+      typography: "Description of the typography"
+  gui_style_enhancements:
+    animations:
+      name: "Chosen Animation Style"
+      description: "Description of the animation style"
+    interaction_patterns:
+      name: "Chosen Interaction Pattern"
+      description: "Description of the interaction pattern"
+    components:
+      name: "Component Name"
+      description: "Component Description"
+      details: "Component Details"
+  ux_interaction_style:
+    name: "Chosen UX Interaction Style Name"
+    description: "Brief description of the chosen UX interaction style"
+    usability:
+      error_prevention: "Strategy for error prevention"
+      user_control: "Description of user control mechanisms"
+      flexibility: "Description of the system's flexibility"
+    interaction_design:
+      feedback: "Description of feedback mechanisms"
+      consistency: "Description of how consistency is maintained"
+      five_dimensions:
+        words: "Considerations for the use of words"
+        visual_representation: "Considerations for visual elements"
+        physical_objects_or_space: "Considerations for physical interactions"
+        time: "Considerations for time-based interactions"
+        behavior: "Considerations for user behavior"
+    information_architecture:
+      structuring_information: "How information is structured"
+      support_for_usability: "How the structure supports usability"
+      findability: "How findability is ensured"
+    visual_hierarchy:
+      importance_emphasis: "How visual hierarchy emphasizes importance"
+      scannability: "How the design supports scannability"
+      order_of_visual_flow: "Description of the visual flow"
+    accessibility:
+      color_contrast: "Considerations for color contrast"
+  website_instructions:
+    concept: "Brief overview of the website's design concept"
+    visual_appeal: "Description of the website's visual appeal"
+    animated_background:
+      description: "Instructions for the animated background"
+      elements: "Elements to include in the background animation"
+      color_scheme: "Color palette for the background animation"
+      technology: "Suggested technologies for the background animation"
+    interactions_animations:
+      description: "Description of interactive elements and animations"
+      examples:
+        - "Example interaction or animation 1"
+        - "Example interaction or animation 2"
+        - "Example interaction or animation 3"
+      technology: "Recommended technologies for interactions and animations"
+    world_class_design:
+      principles:
+        - "Principle 1 (e.g., Whitespace)"
+        - "Principle 2 (e.g., Typography)"
+        - "Principle 3 (e.g., Visual Hierarchy)"
+        - "Principle 4 (e.g., Consistency)"
+    single_file_structure:
+      html: "Instructions for HTML structure"
+      css: "Guidelines for CSS styling"
+      js: "Instructions for JavaScript functionality"
+      integration: "How to integrate HTML, CSS, and JS"
+```
+END_GUI_UX_JST
+
+---
